@@ -1,0 +1,6 @@
+alias c="clear"
+alias e="exit"
+alias clean="sudo apt autoremove"
+alias update="sudo apt update && sudo apt upgrade"
+alias v="nvim"
+alias lg="lazygit"
