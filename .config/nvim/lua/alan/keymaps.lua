@@ -29,8 +29,8 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 
 
 -- Line movement
-vim.keymap.set("n", "<A-j>", [[:m .+1<CR>==]], { noremap = true, silent = true })
-vim.keymap.set("n", "<A-k>", [[:m .-2<CR>==]], { noremap = true, silent = true })
+-- vim.keymap.set("n", "<A-j>", [[:m .+1<CR>==]], { noremap = true, silent = true })
+-- vim.keymap.set("n", "<A-k>", [[:m .-2<CR>==]], { noremap = true, silent = true })
 
 -- select all and copy
 vim.keymap.set("n", "<leader>yy", ":%y+<CR>", { noremap = true, silent = true })
