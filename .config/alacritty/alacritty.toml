@@ -1,0 +1,45 @@
+live_config_reload = true
+
+[font]
+size = 14
+
+[font.bold]
+family = "Comic Shanns"
+style = "Bold"
+
+[font.bold_italic]
+family = "Comic Shanns"
+style = "Bold Italic"
+
+[font.italic]
+family = "Comic Shanns"
+style = "Italic"
+
+[font.normal]
+family = "Comic Shanns"
+style = "Regular"
+
+[scrolling]
+multiplier = 15
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[window]
+dynamic_padding = false
+dynamic_title = false
+opacity = 0.9
+startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 150
+lines = 45
+
+[window.padding]
+x = 20
+y = 10
+
+[window.position]
+x = 2500
+y = 700
