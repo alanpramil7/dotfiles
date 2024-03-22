@@ -16,9 +16,9 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.api.nvim_set_keymap('n', 'U', '<C-r>', { noremap = true })
 
 -- window management
-vim.keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
-vim.keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" }) -- split window horizontally
-vim.keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size" }) -- make split windows equal width & height
+vim.keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" })     -- split window vertically
+vim.keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" })   -- split window horizontally
+vim.keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size" })      -- make split windows equal width & height
 vim.keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" }) -- close current split window
 
 -- Move between splits
@@ -29,8 +29,8 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 
 
 -- Line movement
--- vim.keymap.set("n", "<A-j>", [[:m .+1<CR>==]], { noremap = true, silent = true })
--- vim.keymap.set("n", "<A-k>", [[:m .-2<CR>==]], { noremap = true, silent = true })
+vim.keymap.set("n", "<A-j>", [[:m .+1<CR>==]], { noremap = true, silent = true })
+vim.keymap.set("n", "<A-k>", [[:m .-2<CR>==]], { noremap = true, silent = true })
 
 -- select all and copy
 vim.keymap.set("n", "<leader>yy", ":%y+<CR>", { noremap = true, silent = true })
@@ -45,11 +45,11 @@ vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 
 vim.keymap.set(
-    "n",
-    "<leader>ee",
-    "oif err != nil {<CR>}<Esc>Oreturn err<Esc>"
+  "n",
+  "<leader>ee",
+  "oif err != nil {<CR>}<Esc>Oreturn err<Esc>"
 )
 
 vim.keymap.set("n", "<leader><leader>", function()
-    vim.cmd("so")
+  vim.cmd("so")
 end)

@@ -7,7 +7,8 @@
 }
 
 window#waybar {
-  background-color: #181825;
+  background-color: black;
+  /* background-color: #181825; */
   transition-property: background-color;
   transition-duration: 0.5s;
 }
@@ -59,7 +60,7 @@ window#waybar.hidden {
   margin: 6px 3px;
   padding: 6px 12px;
   background-color: #1e1e2e;
-  color: #181825;
+  color: #fff;
 }
 
 #custom-power {
@@ -76,14 +77,14 @@ window#waybar.hidden {
 }
 
 #memory {
-  background-color: #fab387;
+  background-color: #1e1e2e;
 }
 #battery {
-  background-color: #f38ba8;
+  background-color: #1e1e2e;
 }
 @keyframes blink {
   to {
-    background-color: #f38ba8;
+    background-color: #1e1e2e;
     color: #181825;
   }
 }
@@ -100,7 +101,7 @@ window#waybar.hidden {
   animation-direction: alternate;
 }
 #battery.charging {
-  background-color: #a6e3a1;
+  background-color: #1e1e2e;
 }
 
 #backlight {
@@ -108,21 +109,21 @@ window#waybar.hidden {
 }
 
 #pulseaudio {
-  background-color: #f9e2af;
+  background-color: #1e1e2e;
 }
 
 #network {
-  background-color: #94e2d5;
+  background-color: #1e1e2e;
   padding-right: 17px;
 }
 
 #clock {
   font-family: JetBrainsMono Nerd Font;
-  background-color: #cba6f7;
+  background-color: #1e1e2e;
 }
 
 #custom-power {
-  background-color: #f2cdcd;
+  background-color: #1e1e2e;
 }
 
 

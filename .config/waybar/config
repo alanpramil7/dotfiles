@@ -13,6 +13,7 @@
         "tray",
         "memory",
         "network",
+        "pulseaudio",
         "battery",
         "custom/power"
     ],
@@ -60,7 +61,7 @@
     "clock": {
         "tooltip-format": "<tt>{calendar}</tt>",
         "format-alt": "{:%a, %d %b %Y}",
-        "format": "  {:%I:%M %p}"
+        "format": "   {:%I:%M %p}"
     },
     "network": {
         "format-wifi" : "{icon}",
@@ -86,7 +87,6 @@
             "headphone": "",
             "default": ["󰖀","󰕾",""]
         },
-        "on-click": "pamixer -t",
         "scroll-step": 1
     },
     "custom/logo": {
@@ -128,7 +128,8 @@
             "warning": 20,
             "critical": 10
         },
-        "tooltip": false
+        "tooltip": false,
+        "on-click": "~/.config/hypr/scripts/randomwallaper.sh &",
     },
     "custom/power": {
         "format": "󰤆",

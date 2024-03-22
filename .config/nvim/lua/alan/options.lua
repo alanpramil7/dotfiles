@@ -1,6 +1,6 @@
 vim.opt.guicursor = ""
 
--- vim.opt.nu = true
+vim.opt.nu = true
 -- vim.opt.relativenumber = true
 
 vim.opt.tabstop = 2
@@ -29,7 +29,6 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 vim.opt.termguicolors = true
 
 vim.opt.signcolumn = "yes"
-vim.opt.isfname:append("@-@")
 vim.opt.clipboard:append("unnamedplus")
 
 vim.opt.scrolloff = 15
