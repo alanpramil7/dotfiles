@@ -29,6 +29,7 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 vim.opt.termguicolors = true
 
 vim.opt.guicursor:append("i:ver100-iCursor")
+vim.cmd('colorscheme default')
 
 vim.opt.signcolumn = "yes"
 vim.opt.clipboard:append("unnamedplus")
