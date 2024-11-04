@@ -1,0 +1,67 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "show_inline_completions": false,
+  "format_on_save": "on",
+  "features": {
+    "inline_completion_provider": "copilot"
+  },
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    "version": "2"
+  },
+  "auto_update_extensions": {
+    "zig": false
+  },
+  "project_panel": {
+    "dock": "left",
+    "scrollbar": {
+      "show": "never"
+    }
+  },
+  "vim_mode": true,
+  "theme": "Rosé Pine",
+  "ui_font_size": 14,
+  "buffer_font_size": 13,
+  "buffer_font_family": "ComicShannsMono Nerd Font",
+  // "buffer_font_family": "Comic Mono",
+  "buffer_font_weight": 500,
+  "ensure_final_newline_on_save": false,
+  "cursor_blink": false,
+  // "autosave": "on_focus_change",
+  "line_number": true,
+  "relative_line_numbers": false,
+  "scrollbar": {
+    "show": "never"
+  },
+  "tab_bar": {
+    "show": false
+  },
+  "toolbar": {
+    // "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "buffer_line_height": {
+    "custom": 1.6
+  },
+  "terminal": {
+    "font_family": "ComicShannsMono Nerd Font Mono",
+    // "font_family": "Comic Mono",
+    "line_height": {
+      "custom": 1.6
+    }
+  }
+}
