@@ -2,6 +2,9 @@
 # Prompt
 PS1='%n@%m %1~ ➜ '
 
+# default exports
+export DOT=$HOME/personal/dotfiles
+
 # Export
 export PATH="/home/al/.zvm/bin:$PATH"
 export PATH="/home/al/.local/bin:$PATH"
