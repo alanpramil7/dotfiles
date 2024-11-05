@@ -1,0 +1,10 @@
+configuration{
+    modi: "drun";
+    terminal: "alacritty";
+    drun-display-format: "{name}";
+    disable-history: false;
+    hide-scrollbar: true;
+    sidebar-mode: true;
+}
+
+@theme "catppuccin-mocha"
