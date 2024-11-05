@@ -1,8 +1,7 @@
 #!/bin/sh
 
 # Wallpaper
-swww-daemon&
-swww img /home/al/personal/wallpaper/Staircase.png
+hyprpaper&
 
 # disable border
 riverctl border-width 0

@@ -16,3 +16,4 @@ eval "$(zoxide init zsh)"
 # Aliases
 source ~/.zsh_aliases
 
+neofetch
