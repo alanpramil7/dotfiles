@@ -64,6 +64,11 @@ noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
 
+" Ctrl+c to copy to clipboard (only works when VIM is open)
+map <C-c> "+y<CR>
+nnoremap <C-c> "+y<CR>
+inoremap <C-c> "+y<CR>
+
 " plugins
 call plug#begin()
 
