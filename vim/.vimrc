@@ -27,7 +27,7 @@ set background=dark
 set belloff=all
 
 " keymaps
-noremap <leader><leader> :noh<Cr>
+noremap <Esc><Esc> :noh<Cr>
 noremap <leader>pp :Ex<Cr>
 noremap <leader>w :w!<Cr>
 noremap <leader>q :q<Cr>
