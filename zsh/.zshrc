@@ -23,6 +23,7 @@ zstyle ':vcs_info:git:*' actionformats '(%b|%a%u%c)'
 
 # default exports
 export DOT=$HOME/personal/dotfiles
+export EDITOR=vim
 
 # Export
 export PATH="/home/al/.zvm/bin:$PATH"
