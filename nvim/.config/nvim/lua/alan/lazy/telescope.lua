@@ -4,11 +4,16 @@ return {
     tag = "0.1.5",
 
     dependencies = {
-        "nvim-lua/plenary.nvim"
+        'nvim-lua/plenary.nvim',
+        'nvim-telescope/telescope-live-grep-args.nvim',
+        { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
+        'nvim-telescope/telescope-ui-select.nvim',
     },
 
     config = function()
-        require('telescope').setup({})
+        local telescope = require('telescope')
+
+        telescope.setup({})
 
         local builtin = require('telescope.builtin')
         vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
@@ -22,5 +27,12 @@ return {
             builtin.grep_string({ search = word })
         end)
         vim.keymap.set('n', '<leader>hh', builtin.help_tags, {})
+        vim.keymap.set('n', '<Leader>/', function()
+            require('telescope').extensions.live_grep_args.live_grep_args()
+        end, { desc = 'Telescope Live Grep Args' })
+        vim.keymap.set('x', '<Leader>/', function()
+            require('telescope-live-grep-args.shortcuts').grep_visual_selection()
+        end, { desc = 'Telescope Live Grep Selection' })
     end
+
 }

@@ -99,23 +99,23 @@
 --   end,
 -- }
 
--- return {
---   'jesseleite/nvim-noirbuddy',
---   dependencies = {
---     { 'tjdevries/colorbuddy.nvim' }
---   },
---   lazy = false,
---   priority = 1000,
---   config = function()
---     require('noirbuddy').setup {
---       preset = 'slate',
---     }
---     vim.cmd('colorscheme noirbuddy')
---   end,
---   opts = {
---     -- All of your `setup(opts)` will go here
---   },
--- }
+return {
+  'jesseleite/nvim-noirbuddy',
+  dependencies = {
+    { 'tjdevries/colorbuddy.nvim' }
+  },
+  lazy = false,
+  priority = 1000,
+  config = function()
+    require('noirbuddy').setup {
+      preset = 'slate',
+    }
+    vim.cmd('colorscheme noirbuddy')
+  end,
+  opts = {
+    -- All of your `setup(opts)` will go here
+  },
+}
 
 --     return {
 --         "maxmx03/fluoromachine.nvim",
@@ -154,22 +154,22 @@
 --         end,
 --     },
 
-return {
-    "aliqyan-21/darkvoid.nvim",
-    priority = 1000,
-    config = function()
-        require("darkvoid").setup({
-            transparent = true,
-            glow = false,
-            colors = {
-                line_nr = "#505050",
-                -- comment = "#86A789",
-                comment = "#a6a2a2",
-                plugins = {
-                    nvim_cmp = false,
-                },
-            },
-        })
-        vim.cmd.colorscheme("darkvoid")
-    end,
-}
+-- return {
+--     "aliqyan-21/darkvoid.nvim",
+--     priority = 1000,
+--     config = function()
+--         require("darkvoid").setup({
+--             transparent = true,
+--             glow = false,
+--             colors = {
+--                 line_nr = "#505050",
+--                 -- comment = "#86A789",
+--                 comment = "#a6a2a2",
+--                 plugins = {
+--                     nvim_cmp = false,
+--                 },
+--             },
+--         })
+--         vim.cmd.colorscheme("darkvoid")
+--     end,
+-- }
