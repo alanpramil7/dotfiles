@@ -3,6 +3,9 @@
 # Wallpaper
 hyprpaper&
 
+# way-displays
+way-displays > /tmp/way-displays.${XDG_VTNR}.${USER}.log 2>&1 &
+
 # disable border
 riverctl border-width 0
 

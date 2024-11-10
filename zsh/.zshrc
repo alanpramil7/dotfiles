@@ -30,6 +30,9 @@ export PATH="/home/al/.zvm/bin:$PATH"
 export PATH="/home/al/.local/bin:$PATH"
 export PATH="/home/al/.config/scripts:$PATH"
 
+
+export PATH="/home/al/personal/projects/rain/zig-out/bin:$PATH"
+
 # Zoxide
 eval "$(zoxide init zsh)"
 
