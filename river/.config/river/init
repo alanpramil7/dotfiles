@@ -4,7 +4,8 @@
 hyprpaper&
 
 # way-displays
-way-displays > /tmp/way-displays.${XDG_VTNR}.${USER}.log 2>&1 &
+# way-displays > /tmp/way-displays.${XDG_VTNR}.${USER}.log 2>&1 &
+wlr-randr --output eDP-1 --scale 0.85
 
 # disable border
 riverctl border-width 0
