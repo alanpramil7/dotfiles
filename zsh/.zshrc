@@ -40,3 +40,5 @@ eval "$(zoxide init zsh)"
 source ~/.zsh_aliases
 
 neofetch
+
+source ~/prompt.zsh
