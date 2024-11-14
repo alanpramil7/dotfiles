@@ -1,9 +1,9 @@
 *{
     font-family: ComicShannsMono Nerd Font;
-    font-size: 12px;
+    font-size: 15px;
     min-height: 0;
     color: white;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 window#waybar {
