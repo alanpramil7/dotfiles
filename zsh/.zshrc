@@ -41,4 +41,5 @@ source ~/.zsh_aliases
 
 neofetch
 
-source ~/prompt.zsh
+# Sets time displayed to access time and hides icons
+export FEX_DEFAULT_COMMAND="fex --time-type accessed --dotfiles --no-time --icons"

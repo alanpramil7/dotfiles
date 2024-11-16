@@ -36,7 +36,7 @@ noremap <leader>t :tabnew<Cr>
 noremap <leader>tc :tabclose<Cr>
 noremap <leader>v :vsplit<Cr>
 noremap <leader>h :split<Cr>
-noremap <leader>ff :GitFiles<Cr>
+noremap <leader>ff :Files<Cr>
 noremap <leader>fg :Rg<Cr>
 noremap s <Plug>(easymotion-overwin-f)
 noremap <leader>g :G<Cr>
