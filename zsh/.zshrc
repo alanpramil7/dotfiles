@@ -10,7 +10,7 @@ setopt prompt_subst
 add-zsh-hook precmd vcs_info
 # add ${vcs_info_msg_0} to the prompt
 # e.g. here we add the Git information in red
-PROMPT='%F{blue}%n@%m %1~%f %F{red}${vcs_info_msg_0_}%f ➜ '
+PROMPT='%F{blue}%n@%m %~%f %F{red}${vcs_info_msg_0_}%f ➜ '
 
 # Enable checking for (un)staged changes, enabling use of %u and %c
 zstyle ':vcs_info:*' check-for-changes true
@@ -39,7 +39,16 @@ eval "$(zoxide init zsh)"
 # Aliases
 source ~/.zsh_aliases
 
-neofetch
-
 # Sets time displayed to access time and hides icons
 export FEX_DEFAULT_COMMAND="fex --time-type accessed --dotfiles --no-time --icons"
+
+# Function to launch yazi file manager
+yazi_launcher() {
+    yazi "$@"
+}
+
+# Create a ZLE widget for yazi
+zle -N yazi_widget yazi_launcher
+
+# Bind Ctrl+Y to the yazi widget
+bindkey '^Y' yazi_widget
