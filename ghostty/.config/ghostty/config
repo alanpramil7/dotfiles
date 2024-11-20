@@ -1,0 +1,20 @@
+term = xterm-256color
+theme = GitHub Dark
+gtk-titlebar = false
+window-decoration = false
+window-padding-x = 10
+window-padding-y = 10
+cursor-style-blink = false
+resize-overlay = never
+
+confirm-close-surface = false
+
+font-family = ComicShannsMono Nerd Font Mono
+font-thicken = true
+font-size = 16
+
+mouse-hide-while-typing = true
+keybind = global:cmd+s=toggle_quick_terminal
+
+background-opacity = 0.9
+background-blur-radius = 20
