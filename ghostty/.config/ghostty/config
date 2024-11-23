@@ -11,7 +11,7 @@ confirm-close-surface = false
 
 font-family = ComicShannsMono Nerd Font Mono
 font-thicken = true
-font-size = 16
+font-size = 14
 
 mouse-hide-while-typing = true
 keybind = global:cmd+s=toggle_quick_terminal
