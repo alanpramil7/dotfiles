@@ -25,10 +25,13 @@ riverctl map normal Super+Shift P spawn 'pkill waybar'
 
 # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
 riverctl map normal Super Return spawn ghostty
-riverctl map normal Super X spawn firefox
+riverctl map normal Super X spawn floorp
 
 # Rofi
 riverctl map normal Super Space spawn 'rofi -show drun'
+
+# swaylock
+riverctl map normal Super M spawn 'swaylock -u --image /home/al/personal/wallpaper/it.jpg'
 
 # Super+Q to close the focused view
 riverctl map normal Super Q close
