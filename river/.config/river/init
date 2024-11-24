@@ -5,7 +5,7 @@ hyprpaper&
 
 # way-displays
 # way-displays > /tmp/way-displays.${XDG_VTNR}.${USER}.log 2>&1 &
-wlr-randr --output eDP-1 --scale 0.90
+# wlr-randr --output eDP-1 --scale 0.90
 
 # disable border
 riverctl border-width 0
@@ -25,7 +25,7 @@ riverctl map normal Super+Shift P spawn 'pkill waybar'
 
 # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
 riverctl map normal Super Return spawn ghostty
-riverctl map normal Super X spawn floorp
+riverctl map normal Super X spawn firefox
 
 # Rofi
 riverctl map normal Super Space spawn 'rofi -show drun'
