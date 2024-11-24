@@ -5,7 +5,7 @@
 "margin-bottom":0,
 "margin-top":0,
 
-"modules-left": ["river/tags"],
+"modules-left": ["river/tags", "hyprland/workspaces", "hyprland/window"],
 "modules-center": ["clock"],
 "modules-right":  ["pulseaudio", "cpu", "memory", "network", "battery"],
 
