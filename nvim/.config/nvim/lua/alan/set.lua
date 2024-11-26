@@ -29,4 +29,3 @@ vim.opt.updatetime = 50
 vim.cmd.colorscheme("default")
 vim.opt.clipboard:append("unnamedplus")
 
-
